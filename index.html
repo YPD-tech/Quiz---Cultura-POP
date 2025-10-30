@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Cultura Pop - Entrar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- ===== ÁREA PARA IMAGEM DE FUNDO ===== -->
+    <div class="image-side">
+      <!-- 🖼️ AQUI você pode adicionar uma imagem principal -->
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo4B75BnR6UL5PEfuY3mpZraw0U9hBGGA7PA&s" alt="img - Principal">
+    </div>
+
+    <div class="form-side">
+      <h1>🎬 Quiz Cultura Pop</h1>
+      <p>Crie sua conta para começar a jogar!</p>
+
+      <form id="signupForm">
+        <div class="input-group">
+          <label for="username">Nome de Usuário</label>
+          <input type="text" id="username" placeholder="Digite seu nome" required>
+        </div>
+
+        <div class="input-group">
+          <label for="password">Senha</label>
+          <input type="password" id="password" placeholder="Crie sua senha" required>
+        </div>
+
+        <button type="submit" id="createAccount">Criar Conta</button>
+      </form>
+
+      <div id="message"></div>
+
+      <!-- ===== ÁREA PARA IMAGEM DECORATIVA ===== -->
+      <div class="extra-image">
+        <!-- 🖼️ AQUI você pode adicionar uma imagem pequena ou ícone -->
+        <!-- Exemplo: <img src="imagens/logo-pop.png" alt="Logo Pop"> -->
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

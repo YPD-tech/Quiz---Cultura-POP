@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #ff0099, #493240);
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  width: 80%;
+  max-width: 900px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+}
+
+/* ==== LADO DA IMAGEM ==== */
+.image-side {
+  flex: 1;
+  background: linear-gradient(135deg, #f9d423, #ff4e50);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+/* Controle de tamanho da imagem principal */
+.image-side {
+  flex: 1; /* 🔸 Altere este valor para mudar o espaço ocupado */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #f9d423, #ff4e50);
+}
+
+.image-side img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Ajuste da imagem */
+.image-side img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ==== LADO DO FORMULÁRIO ==== */
+.form-side {
+  flex: 1;
+  background-color: #1e1e2f;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  color: #ff80bf;
+}
+
+p {
+  margin-bottom: 20px;
+  color: #ddd;
+}
+
+.input-group {
+  margin: 15px 0;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #ff80bf;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: linear-gradient(135deg, #ff4e50, #f9d423);
+  border: none;
+  border-radius: 15px;
+  color: #fff;
+  font-size: 1em;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+#message {
+  margin-top: 15px;
+  color: #00ffcc;
+}
+
+.extra-image {
+  margin-top: 25px;
+}
+
+.extra-image img {
+  width: 80px;
+  height: auto;
+  border-radius: 50%;
+}
